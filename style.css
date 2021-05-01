@@ -1,22 +1,27 @@
+
+
+/*I've wraped all style with media query to avoid any classes conflict when the page moved to another screen size*/
+
+@media (min-width: 992px){
 /*------ Global use ------*/
 
 @font-face {
-    font-family: "Book";
-    font-display: fallback;
-    src: url("https://d3i4yxtzktqr9n.cloudfront.net/uber-sites/ca614426b50ca7d007056aa00954764b.woff2") format("woff2"),
-         url("https://d3i4yxtzktqr9n.cloudfront.net/uber-sites/a9e39356639e85c045725ab277a8d423.woff") format("woff");
+  font-family: "Book";
+  font-display: fallback;
+  src: url("https://d3i4yxtzktqr9n.cloudfront.net/uber-sites/ca614426b50ca7d007056aa00954764b.woff2") format("woff2"),
+       url("https://d3i4yxtzktqr9n.cloudfront.net/uber-sites/a9e39356639e85c045725ab277a8d423.woff") format("woff");
 }
-  :root{
-    --black: #000000;
-    --l-black: #333333;
-    --white: #FEFEFE;
+:root{
+  --black: #000000;
+  --l-black: #333333;
+  --white: #FEFEFE;
 }
 *,
 *::after,
 *::before{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+padding: 0;
+margin: 0;
+box-sizing: border-box;
 }
 body{
   font-family: "Book";
@@ -24,7 +29,6 @@ body{
   font-size: 16px;
   line-height: 2rem;
 }
-
 
 
 /*------ Nav bar ------*/
@@ -52,7 +56,7 @@ body{
   text-decoration: none;
 
 }
-i{
+.fas{
   padding: 0 4px;
 }
 .left-side ul li:first-child a{
@@ -210,7 +214,7 @@ nav ul:last-child li:last-child a:hover{
 .th-list{
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
 }
 .th-li-card{
   width: 20%;
@@ -250,21 +254,24 @@ nav ul:last-child li:last-child a:hover{
   width: 200px;
   height: 200px;
 }
-.uber-a a{
+.th-c-a{
   text-decoration: none;
   color: var(--black);
-  position: static;
+}
+.f-th-c-a{
   float: right;
   font-size: 1.5rem;
   margin: auto;
   padding: 80px 25px;
+  text-decoration: none;
+  color: var(--black);
 }
-.uber-a a::after{
+.f-th-c-a::after{
   content: "";
   clear: both;
   display: table;
 }
-.uber-a a:hover{
+.th-c-a:hover, .f-th-c-a:hover{
   color: #333;
   font-weight: 700;
 }
@@ -301,28 +308,24 @@ nav ul:last-child li:last-child a:hover{
 
 .footer-h{
   display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  padding-left: 80px;
-  font-size: 1.5rem;
+  justify-content: space-around;
+  padding: 25px;
+  font-size: 2.5rem;
 }
-.footer-h a{
+.fo-a{
   text-decoration: none;
   color: var(--white);
-  padding: 20px 0;
-  width: 150px;
 }
-.footer-h a:hover{
+.fo-a:hover{
   border-bottom: 1px solid var(--white);
 }
-
+.ul-l-flex{
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.6rem;
+}
 .footer-li{
   list-style: none;
-  float: left;
-  padding-left: 80px;
-  width: 300px;
-  margin-right: 150px;
-  text-transform: capitalize;
 }
 .footer-li::after{
   content: "";
@@ -374,11 +377,8 @@ nav ul:last-child li:last-child a:hover{
   justify-content: space-between;
   padding: 20px;
 }
-.left{
-  color: var(--white);
-  padding-right: 50px;
+
 }
 
-/* ----- I've not enough time to use media query ------- */
 
 
