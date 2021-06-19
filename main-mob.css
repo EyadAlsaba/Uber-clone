@@ -14,7 +14,8 @@
 .sing-up-link,
 .app-link,
 .footer-items,
-.footer-media {
+.footer-media,
+.footer-link {
   text-decoration: none;
 }
 .item-active {
