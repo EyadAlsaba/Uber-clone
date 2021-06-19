@@ -1,5 +1,5 @@
 # Uber-clone
 https://eyadalsaba.github.io/Uber-clone/
-#### We had to clone a website as a homework project to learn frameworks and some CSS advanced stuff, here you can check out my projects as I cloned (Uber website). 
+#### We had to clone a website as a homework project to learn frameworks and some CSS advanced stuff, here you can check out my projects as I cloned (Uber website)[ONLY the landing page]. 
 # Animal repo
 https://github.com/EyadAlsaba/animals
