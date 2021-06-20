@@ -87,8 +87,8 @@
     margin-bottom: 0.5rem !important;
   }
   .img-app {
-    width: 80px;
-    height: 80px;
+    max-width: 60px;
+    max-height: 60px;
     margin: 5px 5px 5px 0 !important;
   }
   .panner-card {
@@ -152,8 +152,8 @@
     margin-bottom: 0.5rem !important;
   }
   .img-app {
-    width: 100px;
-    height: 100px;
+    max-width: 100px;
+    max-height: 100px;
   }
   .app-sec {
     padding: 1rem 0 !important;
@@ -208,8 +208,8 @@
     padding: 0 0.5rem !important;
   }
   .img-app {
-    width: 120px;
-    height: 120px;
+    max-width: 120px;
+    max-height: 120px;
     margin: 8px 8px 8px 0 !important;
   }
   .sing-up-sec {
